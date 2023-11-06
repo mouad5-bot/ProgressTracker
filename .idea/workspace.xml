@@ -5,24 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de1df5a0-b493-4042-bc0d-d6ff2b4830e2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Config.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/youcode/model/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/youcode/repository/TestRespository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/youcode/repository/TestRespositoryImp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/youcode/service/TestService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/youcode/service/TestServiceImp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/service-bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgressTracker-java/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgressTracker-java/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgressTracker-java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgressTracker-java/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgressTracker-java/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgressTracker-java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProgressTracker-java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgressTracker-java/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgressTracker-java/src/main/java/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgressTracker-java/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgressTracker-java/src/main/java/com/youcode/model/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgressTracker-java/src/main/java/com/youcode/repository/TestRespository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgressTracker-java/src/main/java/com/youcode/repository/TestRespositoryImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgressTracker-java/src/main/java/com/youcode/service/TestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgressTracker-java/src/main/java/com/youcode/service/TestServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgressTracker-java/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgressTracker-java/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgressTracker-java/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgressTracker-java/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -60,7 +62,11 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "spring.configuration.checksum": "1f410ad9cee0e13b099173a5a8e737c7"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -75,7 +81,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="ProgressTracker-java" />
+      <module name="ProgressTracker" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,7 +102,8 @@
       <updated>1698913606012</updated>
       <workItem from="1698913608351" duration="5368000" />
       <workItem from="1698931022996" duration="6528000" />
-      <workItem from="1699307773126" duration="851000" />
+      <workItem from="1699307773126" duration="738000" />
+      <workItem from="1699308626522" duration="2505000" />
     </task>
     <servers />
   </component>
