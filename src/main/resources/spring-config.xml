@@ -1,28 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:aop="http://www.springframework.org/schema/aop"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-           https://www.springframework.org/schema/beans/spring-beans.xsd
-           http://www.springframework.org/schema/aop
-            https://www.springframework.org/schema/aop/spring-aop.xsd"
+           https://www.springframework.org/schema/beans/spring-beans.xsd"
 >
 
+    <import resource="service-bean.xml" />
+    <import resource="data-bean.xml" />
 
     <bean
-            name="user1"
-            class="com.youcode.model.User"
-            scope="singleton"
+        name="user1"
+        class="com.youcode.entities.User"
+        scope="singleton"
     >
         <property name="name" value="mouad" />
+<!--     property for setter    -->
     </bean>
     <bean
-            name="user2"
-            class="com.youcode.model.User"
-            scope="prototype"
+        name="user2"
+        class="com.youcode.entities.User"
+        scope="prototype"
     >
     </bean>
 
+    <bean
+        name="objectif1"
+        class="com.youcode.entities.Objectif"
+        scope="singleton"
+    >
+    </bean>
 
 
 </beans>
